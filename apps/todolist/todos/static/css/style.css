@@ -1,0 +1,17 @@
+button, input, optgroup, select, textarea{
+	color: black;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+li{
+	list-style:none;
+}
+.container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}

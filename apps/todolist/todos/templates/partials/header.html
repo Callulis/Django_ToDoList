@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {% load static %}
+    {% load bootstrap3 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    {% bootstrap_messages %}
+    <script type="text/javascript" src="{{ STATIC_URL }} /static/js/jquery.js">
+</script> 
+   <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Chris's Django ToDo List</title>
+  </head>
+  <body>
+    <header class = "container">
+      <h1>TodoList</h1>
+      
+      <hr>
+    </header>
